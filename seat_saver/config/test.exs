@@ -12,8 +12,7 @@ config :logger, level: :warn
 # Configure your database
 config :seat_saver, SeatSaver.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "martin.svalin",
   database: "seat_saver_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox

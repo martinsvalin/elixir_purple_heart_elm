@@ -35,8 +35,7 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :seat_saver, SeatSaver.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "martin.svalin",
   database: "seat_saver_dev",
   hostname: "localhost",
   pool_size: 10
